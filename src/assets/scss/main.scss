@@ -1,7 +1,18 @@
+@use './var.scss' as *;
+
 :root,
 html,
 body,
 #app {
+  height: 100vh;
+  width: 100vw;
   margin: 0;
-  font-size: 16px;
+}
+#app {
+  background: $console-background-color;
+  height: 100%;
+  font-size: 32px;
+  font-optical-sizing: auto;
+  font-family: $console-font-family;
+  text-rendering: optimizeLegibility;
 }

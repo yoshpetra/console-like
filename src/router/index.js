@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeConsoleView from '../views/HomeConsole/HomeConsole.vue'
+import HomeInputView from '../views/HomeInput/HomeInput.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +7,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeConsoleView,
+      component: HomeInputView,
     },
     {
       path: '/about',

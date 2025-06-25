@@ -1,7 +1,6 @@
 <template>
-  <main contenteditable>
-    {{ renderData }}
-  </main>
+    <div class="code">
+    </div>
 </template>
 
 <script setup>
@@ -17,4 +16,4 @@ onMounted(() => {
 })
 </script>
 
-<style lang="scss" src="./HomeConsole.scss"></style>
+<style src="./ConsoleHistory.scss"></style>
